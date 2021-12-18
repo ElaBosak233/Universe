@@ -30,7 +30,6 @@
 </template>
 
 <script lang="ts">
-import { ArrowNarrowRightIcon } from '@heroicons/vue/outline'
 
 interface links {
     id: number
@@ -39,9 +38,6 @@ interface links {
 }
 
 export default {
-    components: {
-        ArrowNarrowRightIcon
-    },
     setup() {
         const router = useRouter()
         const lists = ref<links[]>([

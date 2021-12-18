@@ -111,19 +111,12 @@
 
 <script>
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
-import { ChevronDownIcon, ArchiveIcon, DuplicateIcon, CheckCircleIcon, AcademicCapIcon, ArrowLeftIcon } from '@heroicons/vue/solid'
 export default {
     components: {
         Menu,
         MenuButton,
         MenuItems,
-        MenuItem,
-        ChevronDownIcon,
-        ArchiveIcon,
-        DuplicateIcon,
-        CheckCircleIcon,
-        AcademicCapIcon,
-        ArrowLeftIcon,
+        MenuItem
     },
 }
 </script>

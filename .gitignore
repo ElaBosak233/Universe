@@ -604,3 +604,5 @@ MigrationBackup/
 .vercel
 
 .output
+
+yarn.lock

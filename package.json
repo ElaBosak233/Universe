@@ -18,8 +18,7 @@
     "tailwindcss": "latest"
   },
   "dependencies": {
-    "@headlessui/vue": "latest",
-    "@heroicons/vue": "latest",
+    "@headlessui/vue": "^1.4.2",
     "@pinia/nuxt": "latest",
     "@tailwindcss/aspect-ratio": "latest",
     "@tailwindcss/forms": "latest",
