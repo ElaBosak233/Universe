@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs",
+    "allupdate": "yarn upgrade-interactive --latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "body-parser": "latest",
+    "express": "latest",
+    "autoprefixer": "latest",
+    "nuxt3": "latest",
+    "postcss": "latest",
+    "sass": "latest",
+    "sass-loader": "latest",
+    "tailwindcss": "latest"
+  },
+  "dependencies": {
+    "@headlessui/vue": "latest",
+    "@heroicons/vue": "latest",
+    "@pinia/nuxt": "latest",
+    "@tailwindcss/aspect-ratio": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/line-clamp": "latest",
+    "@tailwindcss/typography": "latest",
+    "pinia": "latest"
+  },
+  "engines": {
+    "node": "^14.16.0 || ^16.11.0 || ^17.0.0"
+  }
+}
