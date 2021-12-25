@@ -8,6 +8,6 @@
 
 现在就先搞这么些吧，慢慢来，预计 2022 年寒假结束的时候搞完~
 
-* [ ] 迁移 [api](https://github.com/ElaBosak233/api.git) 到万象
+* [x] 迁移 [api](https://github.com/ElaBosak233/api.git) 到柚
 * [ ] 迁移重要项目文档，使用 `Nuxt Contents` 渲染，换句话说，这个可以打造成维基
 * [ ] 看看能不能跟 [e23.dev](https://e23.dev) 来个联动，比如给她提供点接口什么的

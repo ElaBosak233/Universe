@@ -20,12 +20,14 @@
   },
   "dependencies": {
     "@headlessui/vue": "latest",
-    "@iconify/vue": "latest",
+    "@heroicons/vue": "latest",
     "@pinia/nuxt": "latest",
     "@tailwindcss/aspect-ratio": "latest",
     "@tailwindcss/forms": "latest",
     "@tailwindcss/line-clamp": "latest",
     "@tailwindcss/typography": "latest",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
     "pinia": "latest"
   },
   "engines": {
