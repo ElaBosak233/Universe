@@ -30,7 +30,7 @@
 </template>
 
 <script lang="ts">
-import { ArrowNarrowRightIcon } from "@heroicons/vue/outline";
+import { ArrowNarrowRightIcon } from "@heroicons/vue/outline/index.js";
 
 interface links {
     id: number
