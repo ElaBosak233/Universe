@@ -1,17 +1,3 @@
-<script  lang="ts">
-import { useCounter } from "~/store/counter";
-
-export default {
-    setup() {
-        const counter = useCounter();
-        return {
-            counter,
-        }
-    },
-}
-
-</script>
-
 <template>
     <div>
         <div class="global-text">
@@ -31,3 +17,16 @@ export default {
     </div>
 </template>
 
+<script  lang="ts">
+import { useCounter } from "~/store/counter";
+
+export default {
+    setup() {
+        const counter = useCounter();
+        return {
+            counter
+        }
+    },
+}
+
+</script>

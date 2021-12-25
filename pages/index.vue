@@ -5,13 +5,13 @@
                 class="w-40 h-40 rounded-full mb-4"
                 height="160"
                 width="160"
-                src="https://avatars.githubusercontent.com/u/38668796?v=4"
-                alt="productfrontenddeveloper"
+                src="https://i.loli.net/2021/03/13/RSLyWDlwuci1atf.jpg"
+                alt="ElaBosak233"
             />
             <a
                 target="blank"
                 class="ml-4 text-green-900 dark:text-green-400 font-bold"
-                href="https://github.com/productdevbook"
+                href="https://github.com/ElaBosak233"
             >Follow Me Github</a>
         </div>
         <ul role="list" class="mt-10 space-y-4">
@@ -43,6 +43,9 @@ export default {
         ArrowNarrowRightIcon
     },
     setup() {
+        useMeta({
+            title: "首页 - 埃拉の柚子"
+        });
         const router = useRouter()
         const lists = ref<links[]>([
             { id: 1, title: 'Pinia Store', url: 'pinia' },
