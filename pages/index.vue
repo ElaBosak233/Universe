@@ -43,7 +43,7 @@ export default {
         const lists = ref<links[]>([
             { id: 1, title: 'Pinia Store', url: 'pinia' },
             { id: 1, title: 'Modal', url: 'modal' },
-             { id: 1, title: 'Menu', url: 'menu' },
+            { id: 1, title: 'Menu', url: 'menu' },
             { id: 1, title: 'New soon...', url: '' },
         ])
         return {

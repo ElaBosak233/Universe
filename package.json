@@ -9,9 +9,9 @@
   },
   "devDependencies": {
     "@types/express": "latest",
+    "autoprefixer": "latest",
     "body-parser": "latest",
     "express": "latest",
-    "autoprefixer": "latest",
     "nuxt3": "latest",
     "postcss": "latest",
     "sass": "latest",
@@ -19,7 +19,8 @@
     "tailwindcss": "latest"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.4.2",
+    "@headlessui/vue": "latest",
+    "@iconify/vue": "latest",
     "@pinia/nuxt": "latest",
     "@tailwindcss/aspect-ratio": "latest",
     "@tailwindcss/forms": "latest",

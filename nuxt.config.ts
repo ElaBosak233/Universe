@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     meta: {
         meta: [],
         link: [
-            { rel: "icon", href: "~/assets/img/favicon.svg", type: "image/x-icon" }
+            { rel: "icon", href: "/img/favicon.svg", type: "image/x-icon" }
         ]
     },
     serverMiddleware: [
