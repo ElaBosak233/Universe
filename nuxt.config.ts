@@ -15,6 +15,12 @@ export default defineNuxtConfig({
             }
         },
     },
+    meta: {
+        meta: [],
+        link: [
+            { rel: "icon", href: "~/assets/img/favicon.svg", type: "image/x-icon" }
+        ]
+    },
     serverMiddleware: [
         { path: "/api", handler: "~/server/api/app.ts" }
     ]

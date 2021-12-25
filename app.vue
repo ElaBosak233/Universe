@@ -1,8 +1,3 @@
-<script lang="ts" setup>
-import './assets/tailwind.scss'
-</script>
-
-
 <template>
   <div>
     <NuxtPage />
@@ -17,3 +12,7 @@ body {
   @apply text-gray-900 dark:text-gray-50;
 }
 </style>
+
+<script lang="ts" setup>
+import "./assets/css/main.scss"
+</script>
