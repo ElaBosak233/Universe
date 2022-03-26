@@ -64,7 +64,6 @@ interface links {
 }
 
 export default {
-    layout: "default",
     components: {
         ArrowNarrowRightIcon
     },

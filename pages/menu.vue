@@ -109,7 +109,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 export default {
     components: {

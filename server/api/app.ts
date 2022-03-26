@@ -11,6 +11,8 @@ router.get("/", (req: Request, res: Response) => {
 /**
  * 载入所需模块
  */
+import elink from "./elink/main";
+app.use("/elink", elink);
 import mcbbs from "./mcbbs/main";
 app.use("/mcbbs", mcbbs);
 app.use("/", router);
