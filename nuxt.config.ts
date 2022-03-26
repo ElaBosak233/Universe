@@ -21,7 +21,7 @@ export default defineNuxtConfig({
             { rel: "icon", href: "/img/favicon.svg", type: "image/x-icon" }
         ]
     },
-    css: ["/assets/css/transition.css"],
+    css: ["~/assets/css/transition.css"],
     serverMiddleware: [
         { path: "/api", handler: "~/server/api/app.ts" }
     ]
