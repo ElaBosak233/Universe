@@ -34,5 +34,5 @@ import { useRouter } from "#imports";
 const router = useRouter();
 setTimeout(() => {
     router.push("/home");
-}, 5000);
+}, 2000);
 </script>
